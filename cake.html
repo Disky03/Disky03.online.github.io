@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>HBD</title>
+	<meta content="" name="descriptison">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	
+	<!-- Vendor CSS Files -->
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="icofont.min.css" rel="stylesheet">
+	<link href="boxicons.min.css" rel="stylesheet">
+	<link href="owl.carousel.min.css" rel="stylesheet">
+	<link href="venobox.css" rel="stylesheet">
+	<link href="aos.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="stylecake.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- ======= Hero Section ======= -->
+	<section id="hero" class="d-flex align-items-center">
+		<div class="container align-items-center justify-content-center" data-aos="fade-up">
+			<h1>Anggi Nurul Dwi Septiasih</h1>
+			<b class="teks1">"Selamat ulang tahun Anggi,ciee udah tua:v smoga makin nurut sama orang tua,makin dewasa yh..,tambah pinter jg,sukses selalu,semoga harimu dipenuhi hangatnya matahari, ribuan senyuman dan tawa bahagia, serta cinta yang tak ternilai Aamiin.."</b>
+			<img src="cake.jpg" width="75%" class="img-fluid hero-img mt-2" alt="" data-aos="zoom-in" data-aos-delay="100">
+			<button class="get-started-btn" id="music">
+				<i class="icofont-music"> Play Music</i>
+			</button>
+		</div>
+	</section>
+
+
+		<audio id="audioID" loop> <source src="ultah.mp3" type="audio/mp3">
+		</audio>
+
+		<script>
+		
+   
+			var tulisan = document.querySelector('.teks1');
+			var myaudio = document.getElementById("audioID");
+			var tulisan1 = document.querySelector('h1');
+
+			document.getElementById
+			("music").addEventListener
+			("click", play);
+
+			function play() {
+				myaudio.play();
+				tulisan.style.visibility = 'visible';
+				tulisan.style.color = 'black';
+				tulisan.style.transition = '10s';
+				tulisan1.style.visibility = 'visible';
+				tulisan1.style.color = '#F50057';
+				tulisan1.style.transition = '5s';
+			}
+
+		</script>
+
+		<!-- Vendor JS Files -->
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.bundle.min.js"></script>
+		<script src="jquery.easing.min.js"></script>
+		<script src="owl.carousel.min.js"></script>
+		<script src="isotope.pkgd.min.js"></script>
+		<script src="venobox.min.js"></script>
+		<script src="aos.js"></script>
+		<script src="validate.js"></script>
+		
+
+		<!-- Template Main & Custom JS File -->
+		<script src="main.js"></script>
+
+	</body>
+</html>
