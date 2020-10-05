@@ -1,5 +1,5 @@
 // Function Hitung Mundur
-const tanggalTujuan = new Date('Sep 16, 2020 00:00:00').getTime();
+const tanggalTujuan = new Date('Sep 1, 2021 00:00:00').getTime();
 
 const hitungMundur = setInterval(function() {
 
